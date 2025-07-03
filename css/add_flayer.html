@@ -1,0 +1,101 @@
+
+<style>
+    .poster-container {
+        position: relative;
+        width: 90%;
+        max-width: 500px;
+        margin: 40px auto;
+        perspective: 1000px;
+        
+    }
+    
+    .poster {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        /* height: 100%; */
+        box-sizing: border-box;
+        position: relative;
+        transform: rotate(-2deg) translateY(5px);
+        transition: transform 0.3s ease;
+        border-radius: 2px;
+    }
+    
+    .poster:hover {
+        transform: rotate(-1deg) translateY(2px);
+    }
+</style>
+
+<div class="poster-container">
+    <img src="/media/images/1320/whpY13207002.jpg" alt="Ten Commandments reading"  class="poster"/>
+</div>
+
+
+
+<!-- with link------------------- -->
+
+<style>
+.poster-container {
+    display: block;
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    perspective: 1000px;
+    
+}
+
+.poster {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    /* height: 100%; */
+    box-sizing: border-box;
+    position: relative;
+    transform: rotate(-2deg) translateY(5px);
+    transition: transform 0.3s ease;
+    border-radius: 2px;
+}
+
+.poster:hover {
+    transform: rotate(-1deg) translateY(2px);
+}
+</style>
+
+<div class="a">
+    <a class="poster-container" href="/6895044" target="_self">
+        <img src="/media/images/1320/whpY13207002.jpg" alt="Ten Commandments reading"  class="poster"/>
+    </a>
+</div>
+
+
+/* with additions */
+
+.poster::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.poster::after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8px;
+    height: 25px;
+    background-color: #555;
+    border-radius: 2px;
+    z-index: 1;
+}

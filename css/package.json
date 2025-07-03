@@ -1,0 +1,26 @@
+{
+  "name": "chabad.gr-css",
+  "version": "1.0.0",
+  "description": "The costume css files for chabad.gr to import form Github",
+  "main": "browser",
+  "devDependencies": {
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^15.0.0",
+    "postcss-nested": "^6.0.1",
+    "autoprefixer": "^10.4.14"
+  },
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Neup123/chabad_gr_live.git",
+    "homepage": "https://github.com/Neup123/chabad_gr_live.git#readme",
+    "bugs": {
+      "url": "https://github.com/Neup123/chabad_gr_live/issues"
+    }
+  },
+  "author": "Menachem Mendel Kuperman <neupnir@gmail.com>",
+  "license": "UNLICENSED"
+}

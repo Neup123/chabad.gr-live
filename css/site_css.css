@@ -1,0 +1,54 @@
+/* theme variables */
+
+:root {
+    --theme-primary-color: #f47721;
+    --theme-primary-color-alt1: #ca5100;
+    --theme-secondary-color: #891738;
+    --theme-secondary-color-alt1: #891738;
+    --theme-secondary-color-alt2: #67112A;
+    --theme-secondary-color-alt3: #67112A;
+    --theme-gradient-color-1: #891738;
+    --theme-gradient-color-2: #891738;
+    --theme-gradient-color-3: #891738;
+    --theme-gradient-color-4: #891738;
+    --theme-bg-shade: #787878;
+    --theme-footer-text: #919191;
+    --theme-footer-link: #A4A4A4;
+    --theme-header-nav-color: #ADCAE3;
+    --theme-p-text: #343333;
+    --theme-gray: #333;
+    --theme-grey-light: #666;
+    --theme-grey-x-light: #ddd;
+    --theme-grey-4: #E1E1E1;
+    --theme-white: #fff;
+    --theme-alt-font: Muli, sans-serif;
+}
+
+
+/* font familes spacial in this site */
+/* it's a work in the normal pages, to check where it meant to be */
+body {
+    font-family: __styreneA_dcab32,    __styreneA_Fallback_dcab32;
+    font-family: __copernicus_669e4a,    __copernicus_Fallback_669e4a;
+    font-family: __styreneB_820c23,    __styreneB_Fallback_820c23;
+    font-family: __openDyslexic_e4ce97,    __openDyslexic_Fallback_e4ce97;
+    font-family: __tiempos_b4db0f,    __tiempos_Fallback_b4db0f;
+    font-family: Heebo;
+    font-family: Muli;
+
+
+        /* --sl-font-mono: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+    --sl-font-sans
+-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
+: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+}
+
+/* Shavuos minisite */
+
+body { 
+  /*english*/  font-family: "Abril Fatface";
+  /*english*/  font-family: Montserrat, sans-serif;
+  /*english*/  font-family: Anton, sans-serif;
+  /*english*/  font-family: Oswald, Arimo, sans-serif;
+  /*english*/  font-family: Yellowtail, sans-serif;
+}

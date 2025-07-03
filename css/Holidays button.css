@@ -1,0 +1,15 @@
+
+/* to emphasize a title button, UPDATED varsion*/
+#tabContentMain > :nth-child(3) > :nth-child(2) {
+  background: rgba(244, 119, 33, 0.3) !important;
+  border: 2px solid rgba(244, 119, 33, 0.5) !important;
+}
+
+
+/* to emphasize a title button, OLD version*/
+td.co_menu_item.arrow.multi_level[aid="6419621"] > span,
+td.co_menu_item.arrow.multi_level[aid="6419627"] > span {
+  background: rgba(244, 119, 33, 0.3) !important;
+  border: 2px solid rgba(244, 119, 33, 0.5) !important;
+}
+
