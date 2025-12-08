@@ -1,0 +1,70 @@
+/* 
+this is the html for the chanukia animation.
+
+<div id="AnimatedMenorah" dir="ltr" class="float_right">
+    <div id="menorahBody">
+        <span class="candle unlit"></span>
+        <span class="candle unlit"></span>
+        <span class="candle unlit"></span>
+        <span class="candle lit"></span>
+        <span class="candle lit shamesh"></span>
+        <span class="candle unlit"></span>
+        <span class="candle unlit"></span>
+        <span class="candle lit"></span>
+        <span class="candle lit"></span>
+    </div>
+</div>
+*/
+
+#AnimatedMenorah #menorahBody {
+    border-bottom: 4px solid #dcc5a5;
+    text-decoration: none
+}
+
+#AnimatedMenorah .candle {
+    display: inline-block;
+    width: 11px;
+    height: 25px;
+    margin-top: 6px;
+    margin-bottom: -4px
+}
+
+@media (max-width: 640px) {
+    #chanukah_counter_widget #AnimatedMenorah .candle {
+        position:relative;
+        top: 1px
+    }
+}
+
+#AnimatedMenorah .lit.candle {
+    background: url(/images/holidays/Chanukah/home/menorah/flame1.gif) bottom no-repeat;
+    background-size: contain
+}
+
+#AnimatedMenorah .lit.candle:nth-child(2n) {
+    background-image: url(/images/holidays/Chanukah/home/menorah/flame1.gif)
+}
+
+#AnimatedMenorah .lit.candle:nth-child(2n+1) {
+    background-image: url(/images/holidays/Chanukah/home/menorah/flame2.gif)
+}
+
+#AnimatedMenorah .shamesh {
+    margin-top: 0;
+    border-bottom: solid #dcc5a5 6px;
+}
+
+#chanukah_counter_widget #chanukaInfo {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 5px;
+    line-height: 17px
+}
+
+@media (max-width: 520px) {
+    #AnimatedMenorah.float_right {
+        float:none;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
