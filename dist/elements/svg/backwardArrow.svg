@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="pb-story-icon-flip" style="position:fixed" viewBox="0 0 30 30"><path fill="none" fill-rule="evenodd" d="M0 0h30v30H0z" clip-rule="evenodd"/><path fill="#fff" d="M29 14c0-3.897-7.213-6-14-6S1 10.103 1 14c0 2.674 3.397 4.503 7.721 5.388V17.36C5.085 16.551 3 15.127 3 14c0-1.67 4.565-4 12-4s12 2.33 12 4c0 1.385-3.15 3.22-8.464 3.808V14.5l-6 4.5 6 4.5v-3.693C24.074 19.21 29 17.22 29 14"/></svg>
+<svg id="pb-story-icon-flip" viewBox="0 0 30 30" style="position: fixed;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<rect fill-rule="evenodd" clip-rule="evenodd" fill="none" width="30" height="30"></rect>
+<path fill="white" d="M29,14c0-3.897-7.2134-6-14-6S1,10.103,1,14c0,2.6744,3.397,4.5032,7.7214,5.3879V17.361C5.0852,16.5517,3,15.1268,3,14
+	c0-1.6704,4.5654-4,12-4s12,2.3296,12,4c0,1.3853-3.1492,3.2207-8.4645,3.8075V14.5l-6,4.5l6,4.5v-3.6931
+	C24.0745,19.2109,29,17.2201,29,14z"></path>
+
+</svg>
