@@ -3,10 +3,9 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-<meta name="robots" content="noindex,nofollow,noarchive">
-<meta name="description" content="Luggage storage near Chabad Athens: compare estimated prices for carry-on and large suitcases near Chabad, Monastiraki Metro and Athens Airport." />
-<title>Luggage storage near Chabad Athens | Chabad of Athens</title>
+<meta name="robots" content="noindex,nofollow,noarchive" />
+<meta name="description" content="Find independent luggage storage options near the Chabad House in Athens, Monastiraki station and Athens Airport. Compare estimated prices for carry-on and large suitcases." />
+<title>Luggage Storage Near the Chabad House in Athens | Chabad of Greece</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&family=Quicksand:wght@700&display=swap');
 :root { --ink:#25211d; --muted:#6a625b; --brand:#a06639; --branddeep:#79502f; --cream:#fbfdfc; --light:#f6f1eb; --line:#e6ddd3; --white:#fff; --info:#705e4c; --shadow:0 10px 30px rgba(71,43,23,.07); font-family:'Heebo',Arial,sans-serif; color:var(--ink);background:var(--cream); }
@@ -44,28 +43,32 @@ main{max-width:1050px;margin:0 auto;padding:32px 24px 65px}.eyebrow{color:var(--
 /* English reading direction */
 .brand span,.address{text-align:left}
 .entrance{border-right:0;border-left:3px solid #cab39c}
+/* Allow longer English labels and prices to wrap on narrow screens. */
+.place .price{white-space:normal;overflow-wrap:anywhere}
+.placehead{flex-wrap:wrap}
+.placehead .walk{flex:0 1 auto;max-width:100%}
 </style>
 </head>
 <body>
-<div class="sitebar"><div class="siteinner"><a class="brand" href="https://chabad.gr/">Chabad Athens <span>CHABAD OF ATHENS</span></a></div></div>
+<div class="sitebar"><div class="siteinner"><a class="brand" href="https://chabad.gr/">Chabad of Greece <span>ATHENS</span></a></div></div>
 <main>
-<section class="hero" aria-labelledby="page-title"><h1 id="page-title">Luggage storage near Chabad Athens</h1><p>For security reasons, bags and suitcases cannot be left at Chabad. Here are nearby luggage storage options, along with options near Monastiraki Metro and at the airport.</p></section>
+<section class="hero" aria-labelledby="page-title"><h1 id="page-title">Luggage Storage Near the Chabad House in Athens</h1><p>For security reasons, we cannot store luggage at the Chabad House. Here are independent storage options near the Chabad House and Monastiraki station, as well as at Athens Airport.</p></section>
 
 <section class="comparator" aria-labelledby="calc-heading">
-  <div class="comp-head"><div><h2 id="calc-heading">How much will luggage storage cost?</h2></div><span aria-hidden="true" style="font-size:30px">🧳</span></div>
+  <div class="comp-head"><div><h2 id="calc-heading">Compare luggage storage prices</h2></div><span aria-hidden="true" style="font-size:30px">🧳</span></div>
   <div class="comp-content">
     <div class="fields">
-      <div class="field"><div class="fieldtop"><strong>Carry-on suitcase</strong><small>Cabin-size luggage</small></div><div class="stepper" role="group" aria-label="Number of carry-on suitcases"><button type="button" data-change="cabin:-1" aria-label="Remove one carry-on">−</button><output id="cabinVal" aria-live="polite">1</output><button type="button" data-change="cabin:1" aria-label="Add one carry-on">+</button></div></div>
-      <div class="field"><div class="fieldtop"><strong>Large suitcase</strong><small>Checked luggage</small></div><div class="stepper" role="group" aria-label="Number of large suitcases"><button type="button" data-change="large:-1" aria-label="Remove one large suitcase">−</button><output id="largeVal" aria-live="polite">1</output><button type="button" data-change="large:1" aria-label="Add one large suitcase">+</button></div></div>
+      <div class="field"><div class="fieldtop"><strong>Carry-on suitcase</strong></div><div class="stepper" role="group" aria-label="Number of carry-on suitcases"><button type="button" data-change="cabin:-1" aria-label="Remove one carry-on">−</button><output id="cabinVal" aria-live="polite">1</output><button type="button" data-change="cabin:1" aria-label="Add one carry-on">+</button></div></div>
+      <div class="field"><div class="fieldtop"><strong>Large suitcase</strong></div><div class="stepper" role="group" aria-label="Number of large suitcases"><button type="button" data-change="large:-1" aria-label="Remove one large suitcase">−</button><output id="largeVal" aria-live="polite">1</output><button type="button" data-change="large:1" aria-label="Add one large suitcase">+</button></div></div>
       <div class="field duration"><div class="fieldtop"><strong>Storage duration</strong></div><div class="stepper" role="group" aria-label="Storage duration in hours"><button type="button" data-change="hours:-1" aria-label="Decrease hours">−</button><input id="hours" type="number" min="1" max="72" step="1" inputmode="numeric" aria-label="Number of hours" value="6" /><span class="stepperunit">hours</span><button type="button" data-change="hours:1" aria-label="Increase hours">+</button></div></div>
     </div>
   </div>
 </section>
-<section aria-label="Compare by location">
-  <div class="sectionhead"><h2>Where would you like to store your bags?</h2></div>
-  <div class="area-tabs" role="tablist" aria-label="Storage location">
-    <button type="button" role="tab" aria-selected="true" data-area="chabad" id="tab-chabad">Near Chabad</button>
-    <button type="button" role="tab" aria-selected="false" data-area="metro" id="tab-metro">Near Monastiraki Metro</button>
+<section aria-label="Compare storage options by location">
+  <div class="sectionhead"><h2>Where would you like to store your luggage?</h2></div>
+  <div class="area-tabs" role="tablist" aria-label="Choose a storage location">
+    <button type="button" role="tab" aria-selected="true" data-area="chabad" id="tab-chabad">Near the Chabad House</button>
+    <button type="button" role="tab" aria-selected="false" data-area="metro" id="tab-metro">Near Monastiraki station</button>
     <button type="button" role="tab" aria-selected="false" data-area="airport" id="tab-airport">At Athens Airport</button>
   </div>
   <div class="estimate-summary" id="summary" aria-live="polite"></div>
@@ -73,10 +76,10 @@ main{max-width:1050px;margin:0 auto;padding:32px 24px 65px}.eyebrow{color:var(--
   <button class="show-more" id="showPrices" type="button" hidden="hidden">Show more options</button>
 </section>
 <section aria-labelledby="places-heading">
-  <div class="sectionhead list-title"><h2 id="places-heading">Storage locations</h2></div>
+  <div class="sectionhead list-title"><h2 id="places-heading">Storage options</h2></div>
   <div class="places" id="places"></div><button class="show-more" id="showMore" type="button" hidden="hidden">Show all locations</button>
 </section>
-<div class="last-note"><p>Prices last checked on 22 November 2026 and may change.</p><p>Storage services are provided by independent businesses. Chabad is not responsible for their services or for items left in their care.</p></div>
+<div class="last-note"><p>Prices were checked in November 2026 and may change.</p><p>The storage providers listed here are independent businesses. Chabad of Greece is not responsible for their services or for luggage left with them.</p></div>
 </main>
 
 <script>
@@ -86,16 +89,16 @@ main{max-width:1050px;margin:0 auto;padding:32px 24px 65px}.eyebrow{color:var(--
 // Walk minutes supplied from manually checked Google Maps routes on 2026-11-20. The adjacent Bounce hotel uses the same supplied walking minutes.
 // Pittaki 7 is excluded from visitor recommendations pending dependable access and fixed pricing.
 const rows = [
- {id:'live',name:'Live in Athens',address:'Agion Anargyron 5, Athens, Greece',groups:['chabad','metro'],walk:2,metroWalk:5,price:'€3 per carry-on · €5 per large suitcase',hours:'10:00–18:00',sunday:'Open Sunday',method:'Staffed storage · Walk-ins welcome · Cash or card',model:'live',insurance:'Items are not insured',website:'https://liveinathens.net/'},
- {id:'bounce12',name:'Bounce · Agias Theklas 12',address:'Agias Theklas 12, Athens, Greece',groups:['chabad','metro'],walk:2,metroWalk:3,price:'See price on Bounce',hours:'Weekdays until 18:30',sunday:'Closed Sunday',method:'Hand over to staff · Book and pay online',entrance:'Inside a shoe shop.',model:'bounce12',website:'https://bounce.com/stores/athens/3ufmek',insurance:'Bag protection up to €10,000 per booking (not insurance)',insuranceUrl:'https://bounce.com/legal/terms',caveat:'Checkout example; rates and opening hours may change.'},
- {id:'bounce10',name:'Bounce · Safestay',address:'Agias Theklas 10, Athens, Greece',groups:['chabad','metro'],walk:2,metroWalk:3,price:'See price on Bounce',hours:'24-hour access',sunday:'Open Sunday',method:'Hand over to staff · Book and pay online',entrance:'Inside Safestay hotel.',model:'bounce-tested',website:'https://bounce.com/stores/athens/aF5MZ5',insurance:'Bag protection up to €10,000 per booking (not insurance)',insuranceUrl:'https://bounce.com/legal/terms',caveat:'Final price and available times are shown at checkout.'},
+ {id:'live',name:'Live in Athens',address:'Agion Anargyron 5, Athens, Greece',groups:['chabad','metro'],walk:2,metroWalk:5,price:'€3 per small bag · €5 per large suitcase',hours:'10:00–18:00',sunday:'Open on Sundays',method:'Leave bags with staff · No booking required · Cash or card',model:'live',insurance:'Items are not insured',website:'https://liveinathens.net/'},
+ {id:'bounce12',name:'Bounce · Agias Theklas 12',address:'Agias Theklas 12, Athens, Greece',groups:['chabad','metro'],walk:2,metroWalk:3,price:'Final price shown at checkout',hours:'Closes at 18:30 on weekdays',sunday:'Closed on Sundays',method:'Leave bags with staff · Book and pay online',entrance:'Inside the MOSCHAKIS shoe store.',model:'bounce12',website:'https://bounce.com/stores/athens/3ufmek',insurance:'Bag protection up to €10,000 per booking (not insurance)',insuranceUrl:'https://bounce.com/legal/terms',caveat:'Checkout example; rates and opening hours may change.'},
+ {id:'bounce10',name:'Bounce · Safestay',address:'Agias Theklas 10, Athens, Greece',groups:['chabad','metro'],walk:2,metroWalk:3,price:'Final price shown at checkout',hours:'24-hour access',sunday:'Open on Sundays',method:'Leave bags with staff · Book and pay online',entrance:'Inside the Safestay hotel.',model:'bounce-tested',website:'https://bounce.com/stores/athens/aF5MZ5',insurance:'Bag protection up to €10,000 per booking (not insurance)',insuranceUrl:'https://bounce.com/legal/terms',caveat:'Final price and available times are shown at checkout.'},
  {id:'l4-erm',name:'Lockers4all · Ermou 86',address:'Ermou 86, Athens, Greece',groups:['chabad','metro'],walk:3,metroWalk:2,price:'€1.90 per locker per hour',hours:null,sunday:null,method:'Self-service lockers · Book and pay online',entrance:'In the ATTIC arcade.',website:'https://lockers4all.gr/lockers/luggage-storage',model:'l4',insurance:'Coverage up to €500 per locker (terms apply)',insuranceUrl:'https://lockers4all.gr/faq',caveat:'Price checked on 20 Nov 2026; confirm access hours and any discount.'},
- {id:'l4-mia',name:'Lockers4all · Miaouli 11',address:'Miaouli 11, Athens, Greece',groups:['chabad','metro'],walk:3,metroWalk:3,price:'€1.90 per locker per hour',hours:'08:00–22:00',sunday:'Open Sunday',method:'Self-service lockers · Book and pay online',entrance:'In the entrance area of a self-service laundromat.',website:'https://lockers4all.gr/lockers/luggage-storage',model:'l4',insurance:'Coverage up to €500 per locker (terms apply)',insuranceUrl:'https://lockers4all.gr/faq',caveat:'Checkout price checked on 20 Nov 2026; discount code unverified.'},
- {id:'stow',name:'Stow Your Bags',address:'Kinetou 6, Athens, Greece',groups:['chabad','metro'],walk:3,metroWalk:3,price:'From €1.49 per locker (1 hour)',hours:'07:00–23:00',sunday:'Open Sunday',method:'Self-service lockers · Reserve online or walk in · Pay by card on-site',website:'https://www.stowyourbags.com/en/shop/athens/monastiraki-luggage-storage/',model:'stow',insurance:'Coverage up to €1,000 per bag (terms apply)',insuranceUrl:'https://www.stowyourbags.com/en/terms-and-conditions.html',caveat:'Large luggage: estimate uses MAXI lockers; check dimensions.'},
- {id:'drop',name:'Luggage Drop',address:'Pallados 24-26, Athens, Greece',groups:['chabad','metro'],walk:3,metroWalk:5,price:'Medium locker €4.50 · Large locker €12/day',hours:'24-hour access',sunday:'Open Sunday',method:'Self-service lockers · Reserve online or walk in · Pay by card on-site',website:'https://luggagedrop.gr/price/',model:'drop',insurance:'No insurance for items in lockers',insuranceUrl:'https://luggagedrop.gr/faq/'},
- {id:'l4-ath',name:'Lockers4all · Athinas 2',address:'Athinas 2, Athens, Greece',groups:['chabad','metro'],walk:4,metroWalk:2,price:'€1.90 per locker per hour',hours:'24-hour access',sunday:'Open Sunday',method:'Self-service lockers · Book and pay online',entrance:'Inside Foto Agora.',website:'https://lockers4all.gr/lockers/luggage-storage',model:'l4',insurance:'Coverage up to €500 per locker (terms apply)',insuranceUrl:'https://lockers4all.gr/faq',caveat:'Checkout price checked on 20 Nov 2026; discount code unverified.'},
- {id:'bounce-if',name:'Bounce · Ifestou 12',address:'Ifestou 12, Athens, Greece',groups:['metro'],walk:5,metroWalk:1,price:'See price on Bounce',hours:'Until 20:30',sunday:null,method:'Hand over to staff · Book and pay online',entrance:'Inside a shop.',model:'bounce-tested',website:'https://bounce.com/stores/athens/lmG9IF',insurance:'Bag protection up to €10,000 per booking (not insurance)',insuranceUrl:'https://bounce.com/legal/terms',caveat:'Price including fees is shown at checkout.'},
- {id:'care',name:'CARE4BAG',address:'Athens International Airport, Arrivals Exit 1, Spata, Greece',groups:['airport'],walk:null,metroWalk:null,price:'Up to 24 hours: €15 medium · €18 large',hours:'24-hour access',sunday:'Open Sunday',method:'Hand over to staff · Pay on collection',entrance:'Arrivals hall, near Exit 1.',website:'https://www.care4bag.gr/prices/',model:'care',insurance:null}
+ {id:'l4-mia',name:'Lockers4all · Miaouli 11',address:'Miaouli 11, Athens, Greece',groups:['chabad','metro'],walk:3,metroWalk:3,price:'€1.90 per locker per hour',hours:'08:00–22:00',sunday:'Open on Sundays',method:'Self-service lockers · Book and pay online',entrance:'At the entrance to a self-service laundromat.',website:'https://lockers4all.gr/lockers/luggage-storage',model:'l4',insurance:'Coverage up to €500 per locker (terms apply)',insuranceUrl:'https://lockers4all.gr/faq',caveat:'Checkout price checked on 20 Nov 2026; discount code unverified.'},
+ {id:'stow',name:'Stow Your Bags',address:'Kinetou 6, Athens, Greece',groups:['chabad','metro'],walk:3,metroWalk:3,price:'From €1.49 per locker for 1 hour',hours:'07:00–23:00',sunday:'Open on Sundays',method:'Self-service lockers · Book online or pay by card on site',website:'https://www.stowyourbags.com/en/shop/athens/monastiraki-luggage-storage/',model:'stow',insurance:'Coverage up to €1,000 per bag (terms apply)',insuranceUrl:'https://www.stowyourbags.com/en/terms-and-conditions.html',caveat:'Large luggage: estimate uses MAXI lockers; check dimensions.'},
+ {id:'drop',name:'Luggage Drop',address:'Pallados 24-26, Athens, Greece',groups:['chabad','metro'],walk:3,metroWalk:5,price:'Medium locker: €4.50/day · Large locker: €12/day',hours:'24-hour access',sunday:'Open on Sundays',method:'Self-service lockers · Book online or pay by card on site',website:'https://luggagedrop.gr/price/',model:'drop',insurance:'Items stored in lockers are not insured',insuranceUrl:'https://luggagedrop.gr/faq/'},
+ {id:'l4-ath',name:'Lockers4all · Athinas 2',address:'Athinas 2, Athens, Greece',groups:['chabad','metro'],walk:4,metroWalk:2,price:'€1.90 per locker per hour',hours:'24-hour access',sunday:'Open on Sundays',method:'Self-service lockers · Book and pay online',entrance:'Inside Foto Agora.',website:'https://lockers4all.gr/lockers/luggage-storage',model:'l4',insurance:'Coverage up to €500 per locker (terms apply)',insuranceUrl:'https://lockers4all.gr/faq',caveat:'Checkout price checked on 20 Nov 2026; discount code unverified.'},
+ {id:'bounce-if',name:'Bounce · Ifestou 12',address:'Ifestou 12, Athens, Greece',groups:['metro'],walk:5,metroWalk:1,price:'Final price shown at checkout',hours:'Closes at 20:30',sunday:null,method:'Leave bags with staff · Book and pay online',entrance:'Inside a shop.',model:'bounce-tested',website:'https://bounce.com/stores/athens/lmG9IF',insurance:'Bag protection up to €10,000 per booking (not insurance)',insuranceUrl:'https://bounce.com/legal/terms',caveat:'Price including fees is shown at checkout.'},
+ {id:'care',name:'CARE4BAG',address:'Athens International Airport, Arrivals Exit 1, Spata, Greece',groups:['airport'],walk:null,metroWalk:null,price:'Up to 24 hours: €15 medium · €18 large',hours:'24-hour access',sunday:'Open on Sundays',method:'Leave bags with staff · Pay when collecting your bags',entrance:'Arrivals hall, near Exit 1.',website:'https://www.care4bag.gr/prices/',model:'care',insurance:null}
 ];
 
 const state={cabin:1,large:1,hours:6,area:'chabad',expanded:false,pricesExpanded:false};
@@ -150,11 +153,11 @@ function calculate(model){const{cabin:c,large:l,hours:h}=state;if(model==='live'
 const locationOrder={chabad:['live','bounce12','bounce10','l4-erm','l4-mia','stow','drop','l4-ath'],metro:['bounce-if','l4-erm','l4-ath','bounce12','l4-mia','stow','live','drop','bounce10'],airport:['care']};
 function chosenList(){return (locationOrder[state.area]||[]).map(id=>rows.find(x=>x.id===id)).filter(Boolean);}
 function setArea(area){state.area=area;state.expanded=false;state.pricesExpanded=false;document.querySelectorAll('.area-tabs button').forEach(el=>{const on=el.dataset.area===area;el.setAttribute('aria-selected',String(on));el.tabIndex=on?0:-1});render()}
-function showWalk(x){if(x.groups.includes('airport'))return '';return x.walk==null||x.metroWalk==null?'':`<span class="walk">🚶 From Chabad: ${x.walk} min · From metro: ${x.metroWalk} min</span>`}
+function showWalk(x){if(x.groups.includes('airport'))return '';return x.walk==null||x.metroWalk==null?'':`<span class="walk">🚶 Chabad House: ${x.walk} min · Monastiraki: ${x.metroWalk} min</span>`}
 function placeCard(x){
  const schedule=[x.hours, x.sunday].filter(Boolean).join(' · ');
- const scheduleHtml=[schedule?`<span>${schedule}</span>`:'',x.id!=='pitt'?`<a href="${x.website}" target="_blank" rel="noopener noreferrer">Full hours ↗</a>`:'',x.method?`<span>${x.method}</span>`:''].filter(Boolean).join('<span class="dot">·</span>');
- return `<article class="place" id="place-${x.id}" tabindex="-1"><div class="placehead"><div><h3 class="placename">${x.name}</h3><div class="address">${x.address}</div></div>${showWalk(x)}</div><div class="price">${x.price}</div><div class="essentials">${scheduleHtml}</div>${x.entrance?`<div class="entrance">${x.entrance}</div>`:''}${x.offer?`<div class="offer">${x.offer}</div>`:''}${x.insurance?`<div class="insurance">${x.insuranceUrl?`<a href="${x.insuranceUrl}" target="_blank" rel="noopener noreferrer" title="Coverage details and terms on provider website">ⓘ ${x.insurance}</a>`:`ⓘ ${x.insurance}`}</div>`:''}<div class="links">${x.groups.includes('airport')?`<a class="linkbtn primary" href="${walkLink(x,'chabad')}" target="_blank" rel="noopener noreferrer">View on map ↗</a>`:`<a class="linkbtn primary" href="${walkLink(x,'chabad')}" target="_blank" rel="noopener noreferrer" title="Walking directions from Chabad">From Chabad ↗</a><a class="linkbtn secondary" href="${walkLink(x,'metro')}" target="_blank" rel="noopener noreferrer" title="Walking directions from Monastiraki Metro">From metro ↗</a>`}<a class="linkbtn secondary" href="${x.website}" target="_blank" rel="noopener noreferrer">Provider website ↗</a></div></article>`;
+ const scheduleHtml=[schedule?`<span>${schedule}</span>`:'',x.id!=='pitt'?`<a href="${x.website}" target="_blank" rel="noopener noreferrer">Opening hours ↗</a>`:'',x.method?`<span>${x.method}</span>`:''].filter(Boolean).join('<span class="dot">·</span>');
+ return `<article class="place" id="place-${x.id}" tabindex="-1"><div class="placehead"><div><h3 class="placename">${x.name}</h3><div class="address">${x.address}</div></div>${showWalk(x)}</div><div class="price">${x.price}</div><div class="essentials">${scheduleHtml}</div>${x.entrance?`<div class="entrance">${x.entrance}</div>`:''}${x.offer?`<div class="offer">${x.offer}</div>`:''}${x.insurance?`<div class="insurance">${x.insuranceUrl?`<a href="${x.insuranceUrl}" target="_blank" rel="noopener noreferrer" title="Coverage details and terms on the provider's website">ⓘ ${x.insurance}</a>`:`ⓘ ${x.insurance}`}</div>`:''}<div class="links">${x.groups.includes('airport')?`<a class="linkbtn primary" href="${walkLink(x,'chabad')}" target="_blank" rel="noopener noreferrer">View on map ↗</a>`:`<a class="linkbtn primary" href="${walkLink(x,'chabad')}" target="_blank" rel="noopener noreferrer" title="Walking directions from the Chabad House">From Chabad House ↗</a><a class="linkbtn secondary" href="${walkLink(x,'metro')}" target="_blank" rel="noopener noreferrer" title="Walking directions from Monastiraki station">From Monastiraki ↗</a>`}<a class="linkbtn secondary" href="${x.website}" target="_blank" rel="noopener noreferrer">Provider website ↗</a></div></article>`;
 }
 function billingLabel(result){
  const n=result.unitCount;
@@ -178,7 +181,7 @@ function render(){
    providers.add(provider);results.push(x);
  }
  const visibleResults=state.pricesExpanded?results:results.slice(0,3);
- const grid=document.getElementById('estimates');grid.innerHTML=visibleResults.length?visibleResults.map(({place,result:x})=>`<a class="estimate" href="#place-${place.id}" data-place="${place.id}" title="See details for ${place.name}"><span><span class="est-name">${place.name}</span>${x?`<span class="est-basis">${billingLabel(x)}</span>`:''}</span><strong class="est-value${x?'':' no-quote'}" dir="ltr">${x?`${x.approx?'≈ ':''}${money(x.value)}`:(place.id==='live'?'Ask on-site':'See price online')}</strong></a>`).join(''):`<div class="muted-box" style="grid-column:1/-1">Choose your bags to see estimated prices.</div>`;
+ const grid=document.getElementById('estimates');grid.innerHTML=visibleResults.length?visibleResults.map(({place,result:x})=>`<a class="estimate" href="#place-${place.id}" data-place="${place.id}" title="See details for ${place.name}"><span><span class="est-name">${place.name}</span>${x?`<span class="est-basis">${billingLabel(x)}</span>`:''}</span><strong class="est-value${x?'':' no-quote'}" dir="ltr">${x?`${x.approx?'≈ ':''}${money(x.value)}`:(place.id==='live'?'Ask staff':'See price online')}</strong></a>`).join(''):`<div class="muted-box" style="grid-column:1/-1">Choose your bags to see estimated prices.</div>`;
  const priceMore=document.getElementById('showPrices');priceMore.hidden=results.length<=3;priceMore.textContent=state.pricesExpanded?'Show fewer options':`Show ${results.length-3} more options`;
  const maxToShow=7;const shown=(state.expanded||list.length<=maxToShow)?list:list.slice(0,maxToShow);document.getElementById('places').innerHTML=shown.map(placeCard).join('');
  const more=document.getElementById('showMore');more.hidden=list.length<=maxToShow;more.textContent=state.expanded?'Show fewer locations':`Show ${list.length-maxToShow} ${list.length-maxToShow===1?'location':'locations'}`;
